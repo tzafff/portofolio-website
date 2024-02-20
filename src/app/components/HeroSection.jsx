@@ -6,6 +6,17 @@ import { motion } from "framer-motion";
 import Link from "next/link";
 
 const HeroSection = () => {
+
+    const onButtonClick = () => {
+        const pdfUrl = "cv.pdf";
+        const link = document.createElement("a");
+        link.href = pdfUrl;
+        link.download = "cv.pdf"; // specify the filename
+        document.body.appendChild(link);
+        link.click();
+        document.body.removeChild(link);
+    };
+
     return (
         <section className="lg:py-16">
             <div className="grid grid-cols-1 sm:grid-cols-12">
@@ -35,18 +46,18 @@ const HeroSection = () => {
                         />
                     </h1>
                     <p className="text-[#ADB7BE] text-base sm:text-lg mb-6 lg:text-xl">
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam,
-                        voluptuous.
+                        Building tomorrow's web with innovation and collaboration.
                     </p>
                     <div>
                         <Link
                             href="/#contact"
                             className="px-6 inline-block py-3 w-full sm:w-fit rounded-full mr-4 bg-gradient-to-br from-blue-500 via-red-300  to-red-600 hover:bg-slate-200 text-white"
                         >
-                            Hire Me
+                            Contact Me
                         </Link>
                         <Link
                             href="/"
+                            onClick={onButtonClick}
                             className="px-1 inline-block py-1 w-full sm:w-fit rounded-full bg-gradient-to-br from-blue-500 via-red-300 hover:bg-slate-800 text-white mt-3"
                         >
               <span className="block bg-[#121212] hover:bg-slate-800 rounded-full px-5 py-2">
