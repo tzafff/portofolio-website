@@ -35,7 +35,7 @@ const projectsData = [
 
     {
         id: 6,
-        title: "Web3 Kickstarter Replica Rect",
+        title: "Web3 Kickstarter Replica React",
         description: "w/ React, NextJS, Web3.js, Solidity on Goerli TestNet",
         image: "/images/projects/5.png",
         tag: ["All", "Web3"],
