@@ -38,7 +38,7 @@ const TAB_DATA = [
             <ul className="list-disc pl-2">
                 <li>Ethereum Blockchain Developer Bootcamp With Solidity (2023) - Udemy</li>
                 <li>HyperLedger Fabric 2.x Network Design & Setup - Udemy</li>
-                <li>Ethereum and Solidity: The Complete Developer's Guide - Udemy</li>
+                <li>Ethereum and Solidity: The Complete Developer&apos;s Guide - Udemy</li>
             </ul>
         ),
     },
@@ -63,7 +63,7 @@ const AboutSection = () => {
                     <p className="text-base lg:text-lg">
                         As a full-stack web developer, I specialize in crafting interactive web applications and web3 Dapp applications.
                         My expertise includes Spring, SpringBoot, Elastic Search, JavaScript, TypeScript, React, Angular, Solidity, EthersJs, Web3JS, and Git.
-                        A quick learner, I'm always expanding my knowledge.
+                        A quick learner, I&apos;m always expanding my knowledge.
                         I thrive as a team player and look forward to collaborating on creating outstanding applications.
                     </p>
                     <div className="flex flex-row justify-start mt-8">

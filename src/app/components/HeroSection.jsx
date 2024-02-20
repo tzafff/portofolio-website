@@ -46,7 +46,7 @@ const HeroSection = () => {
                         />
                     </h1>
                     <p className="text-[#ADB7BE] text-base sm:text-lg mb-6 lg:text-xl">
-                        Building tomorrow's web with innovation and collaboration.
+                        Building tomorrow&apos;s web with innovation and collaboration.
                     </p>
                     <div>
                         <Link
