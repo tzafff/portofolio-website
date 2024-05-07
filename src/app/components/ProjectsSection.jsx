@@ -49,7 +49,16 @@ const projectsData = [
         image: "/images/projects/6.png",
         tag: ["All", "Web3"],
         gitUrl: "https://github.com/tzafff/dapplottery-youtube",
-        previewUrl: "",
+        previewUrl: "https://dapplottery-six.vercel.app/",
+    },
+    {
+        id: 13,
+        title: "Provably Random Raffle Contract",
+        description: "w/ Solidity, Foundry toolchain, Using ChainLink VRF (for Randomness) & ChainLink Automation (Time based trigger), Deployed on Sepolia TestNet",
+        image: "/images/projects/13.png",
+        tag: ["All", "Web3"],
+        gitUrl: "https://github.com/tzafff/foundry-smart-contract-lottery-f23/tree/master",
+        previewUrl: "https://github.com/tzafff/foundry-smart-contract-lottery-f23/tree/master",
     },
     {
         id: 3,
