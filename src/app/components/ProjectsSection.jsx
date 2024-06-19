@@ -10,7 +10,7 @@ const projectsData = [
         title: "Elefsinian Mysteries Apartments",
         description: "Hotel Management Site w/ Next.js, React, Sanity.io, Tailwind, Stripe",
         image: "/images/projects/3.png",
-        tag: ["All", "Web"],
+        tag: ["All", "Web2"],
         gitUrl: "/",
         previewUrl: "https://www.elefsinianmysteriesapartments.gr/",
     },
@@ -28,7 +28,7 @@ const projectsData = [
         title: "LeetCode Clone with React",
         description: "w/ Next JS, TypeScript, Tailwind CSS, Firebase",
         image: "/images/projects/4.png",
-        tag: ["All", "Web"],
+        tag: ["All", "Web2"],
         gitUrl: "https://github.com/tzafff/LeetClone",
         previewUrl: "https://leet-clone-sigma.vercel.app/",
     },
@@ -61,11 +61,29 @@ const projectsData = [
         previewUrl: "https://github.com/tzafff/foundry-smart-contract-lottery-f23/tree/master",
     },
     {
+        id: 15,
+        title: "ECommerce React Application",
+        description: "w/ Next.js 14 (Sanity v3, Stripe, JavaScript,  Auth, CMS)",
+        image: "/images/projects/15.png",
+        tag: ["All", "Web2"],
+        gitUrl: "/",
+        previewUrl: "https://nextjs-sanity-ecomm1.vercel.app/",
+    },
+    {
+        id: 14,
+        title: "BLOG Site",
+        description: "w/ Next.js 14 (Sanity v3, TypeScript, Tailwind CSS, Auth, CMS)",
+        image: "/images/projects/14.png",
+        tag: ["All", "Web2"],
+        gitUrl: "https://github.com/tzafff/sanity-nextjs-blog",
+        previewUrl: "https://tzaff-blog3.vercel.app/",
+    },
+    {
         id: 3,
         title: "Youtube Replica with React",
         description: "w/ ReactJS Google API",
         image: "/images/projects/7.png",
-        tag: ["All", "Web"],
+        tag: ["All", "Web2"],
         gitUrl: "https://github.com/tzafff/Youtube-Replica-React",
         previewUrl: "https://youtube-rep.netlify.app/",
     },
@@ -74,7 +92,7 @@ const projectsData = [
         title: "Book Store Project",
         description: "w/ MERN Stack (MongoDB, Express, React, Node.js)",
         image: "/images/projects/8.png",
-        tag: ["All", "Web"],
+        tag: ["All", "Web2"],
         gitUrl: "https://github.com/tzafff/MERN-Book-Store-Application",
         previewUrl: "https://mern-project-frontend-iota.vercel.app/",
     },
@@ -147,8 +165,8 @@ const ProjectsSection = () => {
                 />
                 <ProjectTag
                     onClick={handleTagChange}
-                    name="Web"
-                    isSelected={tag === "Web"}
+                    name="Web2"
+                    isSelected={tag === "Web2"}
                 />
                 <ProjectTag
                     onClick={handleTagChange}
