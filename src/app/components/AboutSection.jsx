@@ -17,7 +17,8 @@ const TAB_DATA = [
                 <li>React</li>
                 <li>NextJS</li>
                 <li>Solidity</li>
-                <li>EthersJS/Web3JS</li>
+                <li>Foundry</li>
+                <li>Ethers/Web3JS</li>
             </ul>
         ),
     },
@@ -29,6 +30,7 @@ const TAB_DATA = [
                 <li>1st Unified High School of Elefsina, Athens</li>
                 <li>Department of Informatics and Telecommunications
                     at University of the Peloponnese</li>
+                <li>Cyfrin Updraft</li>    
             </ul>
         ),
     },
@@ -40,6 +42,8 @@ const TAB_DATA = [
                 <li>Ethereum Blockchain Developer Bootcamp With Solidity (2023) - Udemy</li>
                 <li>HyperLedger Fabric 2.x Network Design & Setup - Udemy</li>
                 <li>Ethereum and Solidity: The Complete Developer&apos;s Guide - Udemy</li>
+                <li>Cyfrin Updraft: Foundry Fundamentals</li>
+                <li>Cyfrin Updraft: Advanced Foundry</li>
             </ul>
         ),
     },
